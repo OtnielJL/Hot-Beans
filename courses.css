@@ -34,7 +34,7 @@ h1{
 	text-decoration:none;
     }
 
-.navl a:hover:not(.active){
+nav a:hover:not(.active){
 		background-color:white;
 	}
 
@@ -55,6 +55,9 @@ marquee{
 .learn{
 	display: flex;
 	flex-wrap: wrap;
+	padding:150px;
+	padding-top: 0px;
+	justify-content: center;
 }
 
 li{
@@ -67,36 +70,56 @@ li{
 	flex-direction: row;
 	border: 1px solid gray;
 	border-radius: 7px;
+	margin:15px;
+}
 
+.jsl{
+	border-left: 1px solid gray ;
 }
 
 .java{
 	height: 300px;
 	display: flex;
 	flex-direction: row;
+	border: 1px solid gray;
+	border-radius: 7px;
+	margin:15px;
+
 }
 .cs{
 	height: 300px;
 	display: flex;
 	flex-direction: row;
+	border: 1px solid gray;
+	border-radius: 7px;
+	margin:15px;
 }
 
 .cpp{
 	height: 300px;
 	display: flex;
 	flex-direction: row;
+	border: 1px solid gray;
+	border-radius: 7px;
+	margin:15px;
 }
 
 .pyt{
 	height: 300px;
 	display: flex;
 	flex-direction: row;
+	border: 1px solid gray;
+	border-radius: 7px;
+	margin:15px;
 }
 
 .php{
 	height: 300px;
 	display: flex;
 	flex-direction: row;
+	border: 1px solid gray;
+	border-radius: 7px;
+	margin:15px;
 }
 .foot{
 	background-color: black;
