@@ -57,70 +57,164 @@ marquee{
 	flex-wrap: wrap;
 	padding:150px;
 	padding-top: 0px;
+	padding-bottom: 20px;
 	justify-content: center;
 }
 
-li{
+.learn ul{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.learn li{
 	display: flex;
 }
 
+
 .js{
+	width: 500px;
 	height: 300px;
 	display: flex;
 	flex-direction: row;
 	border: 1px solid gray;
-	border-radius: 7px;
-	margin:15px;
+	border-radius: 20px;
+	margin:10px;
+}
+
+.jsi{
+	width:300px;
+	height:300px;	
 }
 
 .jsl{
-	border-left: 1px solid gray ;
+	width: 150px;
+	display: flex;
+	border-left: 1px solid gray;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 25px;
+
 }
 
 .java{
+	width: 500px;
 	height: 300px;
 	display: flex;
 	flex-direction: row;
 	border: 1px solid gray;
-	border-radius: 7px;
-	margin:15px;
+	border-radius: 20px;
+	margin:10px;
+}
 
+.javai{
+	width:300px;
+	height:300px;	
 }
+
+.javal{
+	display: flex;
+	border-left: 1px solid gray ;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+
 .cs{
+	width: 500px;
 	height: 300px;
 	display: flex;
 	flex-direction: row;
 	border: 1px solid gray;
-	border-radius: 7px;
-	margin:15px;
+	border-radius: 20px;
+	margin:10px;
 }
+
+.csi{
+	width:300px;
+	height:300px;	
+}
+
+.csl{
+	display: flex;
+	border-left: 1px solid gray ;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+
 
 .cpp{
+	width: 500px;
 	height: 300px;
 	display: flex;
 	flex-direction: row;
 	border: 1px solid gray;
-	border-radius: 7px;
-	margin:15px;
+	border-radius: 20px;
+	margin:10px;
+}
+
+.cppi{
+	width:300px;
+	height:300px;	
+}
+
+.cppl{
+	display: flex;
+	border-left: 1px solid gray ;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 25px;
 }
 
 .pyt{
+	width: 500px;
 	height: 300px;
 	display: flex;
 	flex-direction: row;
 	border: 1px solid gray;
-	border-radius: 7px;
-	margin:15px;
+	border-radius: 20px;
+	margin:10px;
+}
+
+.pyti{
+	width:300px;
+	height:300px;	
+}
+
+.pytl{
+	display: flex;
+	border-left: 1px solid gray ;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 25px;
 }
 
 .php{
+	width: 500px;
 	height: 300px;
 	display: flex;
 	flex-direction: row;
 	border: 1px solid gray;
-	border-radius: 7px;
-	margin:15px;
+	border-radius: 20px;
+	margin:10px;
 }
+
+.phpi{
+	width:300px;
+	height:300px;	
+}
+
+.phpl{
+	display: flex;
+	border-left: 1px solid gray ;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+
 .foot{
 	background-color: black;
     width: 100%;
@@ -130,40 +224,38 @@ li{
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
 	font-size: 1vw;
 	align-content: center;
-	padding-left: 12% ;	
-	
+	padding-left: 12% ;		
 }
+
 .Box1{
     background-color:black;
     grid-column: 1;
+}
 
-    }
  .Box2{
     background-color:black;
     grid-column: 2;
-   
-   
-    }
+}
+
 .Box3{
     background-color:black;
     grid-column: 3;
-   
-    
-    }
+}
+
 .Box4{
     background-color:black;
     grid-column: 4;
-   
-    }
+}
+
 .Box5{
     background-color:black;
     grid-column: 5;
-    
-    }
-.socials{
-    background-color:black;
-   
 }
+
+.socials{
+    background-color:black;  
+}
+
 .socials-logos{
     display: flex;
 }
