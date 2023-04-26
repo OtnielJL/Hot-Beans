@@ -67,6 +67,34 @@ li{
 	flex-direction: row;
 }
 
+.java{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+.cs{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cpp{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+
+.pyt{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+
+.php{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
 .foot{
 	background-color: black;
     width: 100%;
