@@ -52,6 +52,10 @@ marquee{
 	font-family: 'Times New Roman', Times, serif;
 }
 
+.content{
+	background-color:#eeecec;
+}
+
 .learn{
 	display: flex;
 	flex-wrap: wrap;
@@ -82,6 +86,7 @@ marquee{
 	border: 1px solid gray;
 	border-radius: 20px;
 	margin:10px;
+	background-color: white;
 }
 
 .jsi{
@@ -110,6 +115,7 @@ marquee{
 	border: 1px solid gray;
 	border-radius: 20px;
 	margin:10px;
+	background-color: white;
 }
 
 .javai{
@@ -136,6 +142,7 @@ marquee{
 	border: 1px solid gray;
 	border-radius: 20px;
 	margin:10px;
+	background-color: white;
 }
 
 .csi{
@@ -152,6 +159,7 @@ marquee{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 25px;
+	background-color: white;
 }
 
 
@@ -163,6 +171,7 @@ marquee{
 	border: 1px solid gray;
 	border-radius: 20px;
 	margin:10px;
+	background-color: white;
 }
 
 .cppi{
@@ -189,6 +198,7 @@ marquee{
 	border: 1px solid gray;
 	border-radius: 20px;
 	margin:10px;
+	background-color: white;
 }
 
 .pyti{
@@ -215,6 +225,7 @@ marquee{
 	border: 1px solid gray;
 	border-radius: 20px;
 	margin:10px;
+	background-color: white;
 }
 
 .phpi{
