@@ -34,7 +34,7 @@ h1{
 	text-decoration:none;
     }
 
-li a:hover:not(.active){
+.navl a:hover:not(.active){
 		background-color:white;
 	}
 
@@ -52,10 +52,49 @@ marquee{
 	font-family: 'Times New Roman', Times, serif;
 }
 
-content{
-	background-color: #d2d0d0;
+.learn{
+	display: flex;
+	flex-wrap: wrap;
 }
 
+li{
+	display: flex;
+}
+
+.js{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+
+.java{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+.cs{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cpp{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+
+.pyt{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+
+.php{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
 .foot{
 	background-color: black;
     width: 100%;
