@@ -55,6 +55,57 @@ marquee{
 
 content{
 	background-color: #d2d0d0;
+	min-height: 70vh;
+}
+
+
+.foot{
+	margin-top: 0px !important;
+}
+
+.info{
+	padding: 50px;
+	min-height: 300px;
+	background-color: rgb(231, 231, 231);
+}
+.multi-image-wrapper{
+	padding-left: 100px;
+	padding-right: 100px;
+	height:400px;
+	margin-bottom: 200px;
+	
+}
+.img-top-left{
+	z-index: -13;
+	max-height: 350px;
+	border-radius: 25px;
+}
+.words-top-right{
+	background-color: lightblue;
+	padding: 30px;
+	position: relative;
+	z-index: +500;
+	margin-top: -250px;
+	margin-left: 40%;
+	width: 50%;
+	height: 300px;
+	border-radius: 25px;
+}
+.words-bottom-left{
+	border-radius: 25px;
+	height: 300px;
+	background-color: lightblue;
+	padding: 30px;
+	width: 50%;
+	z-index: -13;
+}
+.img-bottom-right{
+	max-height: 350px;
+	position: relative;
+	z-index: +500;
+	margin-top: -250px;
+	margin-left: 40%;
+	border-radius: 25px;
 }
 
 .foot{
