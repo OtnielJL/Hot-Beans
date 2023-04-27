@@ -79,23 +79,21 @@ h2{
 	margin-bottom: 350px;
 	
 }
-.img-top-left{	
-	
-	z-index: +500;
-	margin-top: -250px;
-	margin-left: 40%;
+.img-top-left{
+	z-index: -13;
+	max-height: 500px;
 	border-radius: 25px;
 }
 .words-top-right{
 	background-color: lightblue;
 	padding: 30px;
 	position: relative;
-	z-index: -13;
-	max-height: 500px;
-	border-radius: 25px;
+	z-index: +500;
+	margin-top: -250px;
+	margin-left: 40%;
 	width: 50%;
-	height: 500px;
-	
+	height: 300px;
+	border-radius: 25px;
 }
 .words-bottom-left{
 	border-radius: 25px;
