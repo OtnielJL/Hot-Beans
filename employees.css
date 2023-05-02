@@ -12,8 +12,13 @@ h1{
 	font-size: 3vw;
 }
 
-
-    
+h2{
+	color: darkblue;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 18px;
+	margin-top: 0px;
+}
 
 ul{
 	width: 100%;
@@ -21,14 +26,13 @@ ul{
 	list-style-type:none;
 	background-color:lightblue;
 	overflow: hidden;
-
-   }
+}
   
-  li{
+li{
     float:left;
 	font-size: 2vw;
 	width:20%;
-  }
+}
 
 li a{
 	display:block;
@@ -36,11 +40,11 @@ li a{
 	text-align:center;
 	padding:14px; 
 	text-decoration:none;
-    }
+}
 
 li a:hover:not(.active){
 		background-color:white;
-	}
+}
 
 .logo{
 	background-color:white;
@@ -48,7 +52,6 @@ li a:hover:not(.active){
 	padding:10px 20px 10px;
 	position:absolute;
 	top:0px;
-	max-width:5%;
 }
 
 marquee{
@@ -56,10 +59,15 @@ marquee{
 	font-family: 'Times New Roman', Times, serif;
 }
 
+.content{
+	background-color: rgb(231, 231, 231);
+	min-height: 70vh;
+	padding-bottom: 1px;
+}
+
 .foot{
 	background-color: black;
     width: 100%;
-	margin:500px auto;
 	display:grid;
 	color:lightgray;
 	grid-template-rows: max-content;
@@ -104,8 +112,8 @@ marquee{
     display: flex;
 }
 
-@media only screen and (min-width: 850px) {
+/* @media only screen and (min-width: 850px) {
     /* styles for browsers larger than 850px; */
-}
+} */
 
 
