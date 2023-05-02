@@ -1,0 +1,127 @@
+body{
+    margin:0px;
+    height: 100vh;
+}
+
+p{
+    font-size: 2vw;
+}
+
+h1{
+	text-align: center;
+	font-size: 3vw;
+}
+
+ul{
+	width: 100%;
+	padding:0;
+	list-style-type:none;
+	background-color:lightblue;
+	overflow: hidden;
+
+   }
+  
+  li{
+    float:left;
+	font-size: 2vw;
+	width:20%;
+  }
+
+li a{
+	display:block;
+	color:black;
+	text-align:center;
+	padding:14px; 
+	text-decoration:none;
+    }
+
+li a:hover:not(.active){
+		background-color:white;
+	}
+
+.logo{
+	background-color:white;
+	margin:0px;
+	padding:10px 20px 10px;
+	position:absolute;
+	top:0px;
+	max-width:5%;
+}
+
+marquee{
+	font-size:2vw;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.content{
+	background-color: rgb(231, 231, 231);
+	min-height: 70vh;
+}
+
+input{
+	height:20px;
+	border-radius: 25px;
+	width: 200px;
+	padding-left:10px;
+	margin-left: 7px;
+	margin-top: 5px;
+}
+
+label{
+	font-size: 18px;
+	margin-left: 9px;
+}
+
+
+.foot{
+	background-color: black;
+    width: 100%;
+	display:grid;
+	color:lightgray;
+	grid-template-rows: max-content;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+	font-size: 1vw;
+	align-content: center;
+	padding-left: 12% ;	
+	
+}
+.Box1{
+    background-color:black;
+    grid-column: 1;
+
+    }
+ .Box2{
+    background-color:black;
+    grid-column: 2;
+   
+   
+    }
+.Box3{
+    background-color:black;
+    grid-column: 3;
+   
+    
+    }
+.Box4{
+    background-color:black;
+    grid-column: 4;
+   
+    }
+.Box5{
+    background-color:black;
+    grid-column: 5;
+    
+    }
+.socials{
+    background-color:black;
+   
+}
+.socials-logos{
+    display: flex;
+}
+
+@media only screen and (min-width: 850px) {
+    /* styles for browsers larger than 850px; */
+}
+
+
