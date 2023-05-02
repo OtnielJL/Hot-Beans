@@ -56,6 +56,7 @@ marquee{
 .content{
 	background-color: rgb(231, 231, 231);
 	min-height: 70vh;
+	padding-bottom: 1px;
 }
 
 h2{
@@ -74,7 +75,7 @@ h2{
 	padding-left: 150px;
 	padding-right: 100px;
 	height:400px;
-	margin-bottom: 400px;		
+	margin-bottom: 300px;		
 }
 
 .img-top-left{
@@ -106,26 +107,24 @@ h2{
 	padding-left: 60px;
     padding-top: 60px;
     padding-right: 50px;
-	width: 55%;
+	width: 50%;
+	position: relative;
 	z-index: +500;
-	margin-left: -150px;
+
 }
+
 .img-bottom-right{
 	max-height: 450px;
 	position: relative;
-	z-index: -13;
-	width: 64%;
+	width: 55%;
 	margin-top: -350px;
 	margin-left: 38%;
 	border-radius: 25px;
-	
-
 }
 
 .foot{
 	background-color: black;
     width: 100%;
-	margin:500px auto;
 	display:grid;
 	color:lightgray;
 	grid-template-rows: max-content;
@@ -133,8 +132,7 @@ h2{
 	font-size: 1vw;
 	align-content: center;
 	padding-left: 12% ;	
-	margin-top: 70%;
-	
+		
 }
 .Box1{
     background-color:black;
