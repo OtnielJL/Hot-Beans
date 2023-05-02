@@ -58,7 +58,7 @@ marquee{
 	min-height: 70vh;
 }
 
-input{
+input[type="text"]{
 	height:20px;
 	font-size: 17px;
 	border-radius: 25px;
@@ -71,6 +71,10 @@ input{
 label{
 	font-size: 18px;
 	margin-left: 9px;
+}
+
+.sub{
+	background-color: lightblue;
 }
 
 
