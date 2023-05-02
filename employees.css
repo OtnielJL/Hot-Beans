@@ -68,6 +68,51 @@ marquee{
 .exec{
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding:70px;
+	padding-top: 10px;
+}
+
+.name{
+	font-size: 20px;
+	margin:0px;
+	font-weight: bold;
+}
+
+.direct{
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.directt{
+	width:400px;
+	font-size: 20px;
+}
+
+.ceo{
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.ceot{
+	width:400px;
+	font-size: 20px;
+}
+
+.coo{
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.coot{
+	width:400px;
+	font-size: 20px;
 }
 
 .foot{
@@ -117,8 +162,21 @@ marquee{
     display: flex;
 }
 
-/* @media only screen and (min-width: 850px) {
-    /* styles for browsers larger than 850px; */
-} */
-
-
+@media (min-width:320px) { 
+	/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+	.logo {
+		width: 1000px;
+	}
+}
+@media (min-width:480px) { 
+	/* smartphones, Android phones, landscape iPhone */ 
+}
+@media (min-width:600px) {
+	/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+}
+@media (min-width:801px) {
+	/* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width:1025px) {
+	/* big landscape tablets, laptops, and desktops */
+}
