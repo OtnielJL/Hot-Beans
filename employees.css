@@ -164,19 +164,38 @@ marquee{
 
 @media (min-width:320px) { 
 	/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-	.logo {
-		width: 1000px;
+	.logo > img {
+		width: 150px;
+		height: auto;
+	}
+
+	.exec > div  {
+		width:52%;
 	}
 }
 @media (min-width:480px) { 
 	/* smartphones, Android phones, landscape iPhone */ 
+
 }
+
 @media (min-width:600px) {
 	/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
 }
 @media (min-width:801px) {
 	/* tablet, landscape iPad, lo-res laptops ands desktops */
+	
 }
 @media (min-width:1025px) {
 	/* big landscape tablets, laptops, and desktops */
+
+	.logo > img {
+		width: 180px;
+		height: auto;
+	}
+
+	.exec > div  {
+		width:30%;
+
+	}
+
 }
