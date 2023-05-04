@@ -85,14 +85,14 @@ label{
 
 .foot{
 	background-color: black;
-    width: 100%;
+    width: 85%;
 	display:grid;
 	color:lightgray;
 	grid-template-rows: max-content;
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
 	font-size: 1vw;
 	align-content: center;
-	padding-left: 12% ;	
+	padding-left: 15% ;	
 	
 }
 .Box1{
