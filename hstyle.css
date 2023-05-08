@@ -130,7 +130,7 @@ h2{
 	color:lightgray;
 	grid-template-rows: max-content;
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
-	font-size: 1vw;
+	font-size:1vw;
 	align-content: center;
 	padding-left: 15% ;	
 		
@@ -193,6 +193,7 @@ h2{
 		width: 180px;
 		height: auto;
 	}
+
 }
 
 

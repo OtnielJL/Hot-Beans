@@ -1,6 +1,5 @@
 body{
     margin:0px;
-    height: 100vh;
 }
 
 p{
@@ -56,7 +55,7 @@ marquee{
 
 .content{
 	background-color: rgb(231, 231, 231);
-	min-height: 57vh;
+	
 }
 
 input[type="text"]{
