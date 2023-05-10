@@ -54,8 +54,11 @@ marquee{
 }
 
 .content{
+	min-height: 70vh;	
+}
+
+.form{
 	background-color: rgb(231, 231, 231);
-	
 }
 
 input[type="text"]{
